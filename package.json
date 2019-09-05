@@ -1,7 +1,7 @@
 {
-  "name": "moz",
+  "name": "mozz",
   "version": "0.1.0",
-  "private": true,
+  "author": "yangbo",
   "dependencies": {
     "@types/jest": "24.0.18",
     "@types/node": "12.7.4",
@@ -21,6 +21,11 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yangbo5207/moz.git"
+  },
+  "main": "./src/moz",
   "browserslist": {
     "production": [
       ">0.2%",
