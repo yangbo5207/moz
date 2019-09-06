@@ -17,6 +17,12 @@
 + 支持Typescript，可轻松获取返回的状态类型，无需额外定义声明
 + 使用简单，基本与hooks方式一致
 
+#### 安装
+
+```typescript
+> yarn add mozz
+```
+
 #### 使用
 
 首先自定义一个hook，这个hooks没有任何特殊，与其他自定义hooks完全一样。
