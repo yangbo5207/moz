@@ -1,6 +1,6 @@
 {
   "name": "mozz",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "yangbo",
   "dependencies": {
     "@types/jest": "24.0.18",
