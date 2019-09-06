@@ -1,8 +1,7 @@
 # mozz
+> 本来想叫moz的，结果发布npm包的时候，发现mo a ~ z 都被占了 ~
 
 基于react hooks实现的状态管理工具。
-
-> 本来想叫moz的，结果发布npm包的时候，发现mo a ~ z 都被占了，只要叫mozz了
 
 [![GitHub](https://img.shields.io/github/license/awmleer/reto.svg?logo=github)](https://github.com/awmleer/reto)
 [![npm version](https://img.shields.io/npm/v/mozz.svg?logo=npm)](https://www.npmjs.com/package/mozz)
