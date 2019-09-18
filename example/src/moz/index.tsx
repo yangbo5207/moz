@@ -1,4 +1,4 @@
-import React, { useContext, createContext, FC } from 'react';
+import React, {useContext, createContext, FC} from 'react';
 
 export interface Store<T> {
   Provider: FC
