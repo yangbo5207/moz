@@ -1,5 +1,4 @@
 
-
 ```
                                    
  /'\_/`\                           
@@ -15,16 +14,17 @@
 ## Install
 
 ```bash
-$ yarn add mozz
+> yarn add mozz
 # or
-$ npm i mozz --save
+> npm i mozz --save
 ```
 
 ## 使用
 
-首先自定义一个hook，这个hooks没有任何特殊，与其他自定义hooks完全一样。
+首先自定义一个hook
+> 这个hook没有任何特殊，与其他自定义hooks完全一样
 
-```typescript jsx
+```jsx
 // useCounter.ts
 import {useState} from "react";
 
@@ -39,9 +39,9 @@ export default function useCounter() {
 }
 ```
 
-然后在父级组件中，引入mozz，以及刚才自定义好的hook。 利用api createStore 得到特定的 Provider与hook函数useStore
+然后在父级组件中，引入`mozz`，以及刚才自定义好的hook。 利用api `createStore` 得到特定的 `Provider` 与hook函数 `useStore`
 
-```typescript jsx
+```jsx
 import { createStore } from 'mozz';
 import useCounter from './useCounter';
 
@@ -50,13 +50,13 @@ export const { Provider, useStore } = createStore(useCounter);
 
 父级组件作为目标组件，需要被Provider包裹起来 
 
-```typescript jsx
+```jsx
 export default () => <Provider><App /></Provider>;
 ```
 
 在父级组件内部，可直接使用 useStore 获取自定义hook中，定义好的状态与方法。
 
-```typescript jsx
+```jsx
 const App: FC = () => {
   const { counter, decrease, increase } = useStore();
   return (
@@ -81,7 +81,7 @@ const App: FC = () => {
 
 子组件 Comp 中，也可以直接使用 useStore 获取状态与方法，他们被父子组件共享。
 
-```typescript jsx
+```jsx
 import React from 'react';
 import {useStore} from './App';
 
