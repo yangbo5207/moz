@@ -1,6 +1,6 @@
 # Mozz
 
-基于hooks的React Store，灵活而高效。
+> 基于React hooks 实现的状态管理工具
 
 [GitHub](https://github.com/yangbo5207/moz)
 [English](/)

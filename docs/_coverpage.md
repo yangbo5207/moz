@@ -1,6 +1,6 @@
 # Mozz
 
-state management tool base on React Hooks.
+> state management tool base on React Hooks.
 
 [GitHub](https://github.com/yangbo5207/moz)
 [中文](/zh-cn/)
