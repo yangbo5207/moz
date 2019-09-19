@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mozz - State Management base on React hooks</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="react hooks">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+</head>
+<body>
+<nav>
+  <a href="#/">EN</a>
+  <a href="#/zh-cn/">中文</a>
+</nav>
+<div id="app"></div>
+<script>
+  window.$docsify = {
+    name: 'Mozz',
+    repo: 'https://github.com/yangbo5207/moz',
+    coverpage: ['/', '/zh-cn/'],
+    onlyCover: true,
+    loadSidebar: true,
+    subMaxLevel: 2,
+    autoHeader: true,
+    ga: 'UA-145399271-1',
+    search: {
+      placeholder: {
+        '/zh-cn/': '搜索',
+        '/': 'Type to search'
+      },
+      noData: {
+        '/zh-cn/': '找不到结果',
+        '/': 'No Results'
+      },
+      namespace: 'moz',
+    },
+    auto2top: true,
+    themeColor: '#3f51b5',
+    relativePath: true,
+  }
+</script>
+<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+<script src="//unpkg.com/prismjs/components/prism-jsx.min.js"></script>
+<script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+</body>
+</html>
