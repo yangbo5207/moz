@@ -1,1 +1,1 @@
-export { createStore } from './example/src/moz';
+export { createStore } from './moz';

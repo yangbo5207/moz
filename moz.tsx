@@ -1,4 +1,4 @@
-import React, {useContext, createContext, FC} from 'react';
+import React, { useContext, createContext, FC } from 'react';
 
 export interface Store<T> {
   Provider: FC
@@ -17,7 +17,8 @@ export function createStore<ObservableState, P = void>(useHook: Hook<ObservableS
   function useStore(): ObservableState {
     const state = useContext(Context);
     if (state === null) {
-      throw new Error("your target Component must be wrapped by Provider");
+      // throw new Error("your target Component must be wrapped by Provider");
+      return state
     }
     return state;
   }
