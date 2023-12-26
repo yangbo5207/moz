@@ -1,8 +1,8 @@
 {
   "name": "mozz",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "",
-  "main": "index.ts",
+  "main": "app/src/hooks/moz.tsx",
   "directories": {
     "example": "example"
   },
